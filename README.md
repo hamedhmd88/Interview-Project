@@ -1,8 +1,5 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project for Adding a To-Do List with Three Inputs: One for the text, one for the creation date, and the other for the deadline date. The texts have the ability to be moved, edited, and deleted while handling potential errors. For example, if the deadline date is earlier than the creation date, an error is triggered. If the created text surpasses the deadline date, the background color changes, and the ability to edit the text is removed. Additionally, a countdown timer is implemented from the creation date to the deadline date to enhance the accuracy of work management.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![project](./src/assets/project.png)
